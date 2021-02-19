@@ -1,0 +1,43 @@
+.wrongPage {
+  margin-top: 10vh;
+  height: 90vh;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.wrongPage__left {
+  margin-left: 100px;
+  user-select: none;
+}
+
+.wrongPage__left h1 {
+  font-size: 72px;
+}
+
+.wrongPage__left p {
+  font-size: x-large;
+  margin: 0px 0 60px;
+}
+
+.wrongPage__left button {
+  font-size: large;
+  border: none;
+  border-radius: 20px;
+  background-color: #ff6d5b;
+  color: white;
+  padding: 10px 20px;
+}
+
+.wrongPage__right {
+  height: inherit;
+  width: 60vw;
+  overflow: hidden;
+}
+
+.wrongPage__right img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}

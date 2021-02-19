@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,700&display=swap");
+
+.card__body {
+  margin: 78px 0;
+}
+
+.card_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 1200px;
+  flex-wrap: wrap;
+}
+
+.card_container .card {
+  position: relative;
+  width: 320px;
+  height: 440px;
+  box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.05),
+    inset -5px -5px 5px rgba(255, 255, 255, 0.5),
+    5px 5px 5px rgba(0, 0, 0, 0.05), -5px -5px 5px rgba(255, 255, 255, 0.5);
+  border-radius: 15px;
+  margin: 40px;
+}
+
+.card_container .card .box {
+  position: absolute;
+  height: 400px;
+  top: 20px;
+  left: 20px;
+  right: 20px;
+  bottom: 20px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+}
+
+.card_container .card:hover .box {
+  transform: translateY(-20px);
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+  background-image: linear-gradient(135deg, #ffd3a5 10%, #fd6585 100%);
+}
+
+.card_container .card .box .card_content {
+  padding: 20px;
+  width: 100%;
+  height: 100%;
+}
+
+.card_avatar img {
+  height: 180px;
+  width: 150px;
+  border-radius: 50%;
+  box-shadow: 0 -4px 2px -2px rgb(128 128 128 / 40%),
+    4px 0 2px -2px rgb(128 128 128 / 40%),
+    -4px 0 2px -2px rgb(128 128 128 / 40%),
+    0 4px 2px -2px rgb(128 128 128 / 40%);
+}
+
+.card_avatar {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.card_avatar h2 {
+  user-select: none;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-family: "Josefin Sans", sans-serif;
+  margin-top: 40px;
+}
+
+.rating {
+  text-align: end;
+}
+
+.card_avatar button {
+  padding: 10px 22px;
+  margin-top: 20px;
+  border-radius: 20px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  outline: none;
+  cursor: pointer;
+  color: white;
+  border: none;
+  background-color: #28c76f;
+  font-size: medium;
+}
+
+.card_container .card:hover .box .card_content .card_avatar .card_button {
+  background-color: #f6416c;
+}

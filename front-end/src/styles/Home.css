@@ -1,0 +1,272 @@
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Parisienne&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Courgette&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Mukta&display=swap");
+
+#home {
+  user-select: none;
+}
+
+.container {
+  position: relative;
+}
+
+.container > img {
+  width: 100%;
+}
+
+.menu {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu > h1 {
+  font-family: "Parisienne", cursive;
+  font-size: 100px;
+  font-weight: lighter;
+  margin-top: -8%;
+}
+
+.menu > h3 {
+  font-family: "Parisienne", cursive;
+  font-size: 60px;
+  margin-top: -20px;
+  font-weight: lighter;
+}
+
+.menu > h2 {
+  font-family: "Great Vibes", cursive;
+  letter-spacing: 4px;
+  font-size: x-large;
+  margin-top: 40px;
+}
+
+.custom-shape-divider-bottom-1603902298 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-bottom-1603902298 svg {
+  position: relative;
+  display: block;
+  width: calc(148% + 1.3px);
+  height: 101px;
+}
+
+.custom-shape-divider-bottom-1603902298 .shape-fill {
+  fill: #ffffff;
+}
+
+.our_goal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 80px;
+}
+
+.our_goal > h1 {
+  font-family: "Parisienne", cursive;
+  color: #f6416c;
+  margin: 40px 0px;
+}
+
+.our_goal > p {
+  text-align: center;
+  width: 600px;
+  margin-bottom: 60px;
+  font-family: "Courgette", cursive;
+}
+
+.services {
+  position: relative;
+  width: 700px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 0px;
+}
+
+.description-title-1 {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 10%;
+  left: 37%;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.description-title-2 {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 10%;
+  left: 60%;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.description {
+  display: flex;
+  align-items: center;
+  box-shadow: 0px 0px 10px 3px rgba(128, 128, 128, 0.1);
+  border-radius: 10px;
+  padding: 10px;
+  width: 280px;
+  height: 100px;
+  overflow: hidden;
+}
+
+.box {
+  width: 280px;
+  height: 200px;
+  background-size: 100% 100%;
+}
+
+.box-1 {
+  background-image: url(../res/invitation.png);
+}
+
+.box-2 {
+  background-image: url(../res/salle-des-fetes.jpg);
+}
+
+.box-3 {
+  background-image: url(../res/salon.jpg);
+}
+
+.box-4 {
+  background-image: url(../res/shooting.jpg);
+}
+
+.inner-border {
+  border: 1px solid white;
+  width: 260px;
+  height: 180px;
+  margin: 10px;
+}
+
+.v-line {
+  border-left: 2px solid rgb(255, 228, 225);
+  height: 170px;
+}
+
+.testimonials {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 80px;
+}
+
+.testimonials > h1 {
+  font-family: "Parisienne", cursive;
+  color: #f6416c;
+  margin: 40px 0px;
+}
+
+.testimonials > p {
+  text-align: center;
+  max-width: 600px;
+  margin-bottom: 60px;
+  font-family: "Courgette", cursive;
+}
+
+.testimonial {
+  display: flex;
+  justify-content: space-between;
+}
+
+.testimonial-content {
+  display: grid;
+  grid-template-rows: 140px 230px 63px;
+  width: 250px;
+  height: 480px;
+  box-shadow: 0px 0px 10px 3px rgba(128, 128, 128, 0.1);
+  border: 3px solid #f6416c;
+  border-radius: 30px;
+  padding: 20px 15px;
+  margin: 20px;
+  text-align: center;
+}
+
+.testimonial_avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  box-shadow: 0 -4px 2px -2px rgb(128 128 128 / 40%),
+    4px 0 2px -2px rgb(128 128 128 / 40%),
+    -4px 0 2px -2px rgb(128 128 128 / 40%),
+    0 4px 2px -2px rgb(128 128 128 / 40%);
+  margin: 0 auto;
+}
+
+.testimonial-content > p {
+  padding: 10px;
+  text-align: center;
+  font-family: "Mukta", sans-serif;
+}
+
+.testimonial-content > h5 {
+  font-family: "Courgette", cursive;
+  padding-top: 15px;
+}
+
+.contact_us {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 80px 0px;
+}
+
+.contact_us > form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 400px;
+  box-shadow: 0px 0px 10px 3px rgba(128, 128, 128, 0.1);
+  border-radius: 30px;
+}
+
+.contact_us > form > h1 {
+  margin: 30px 0px;
+  font-family: "Courgette", cursive;
+  color: #f6416c;
+}
+
+.form_field {
+  margin: 20px !important;
+  width: 300px !important;
+}
+
+.contact_us > form > button {
+  width: 100px;
+  height: 40px;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 40px;
+  font-size: medium;
+  border-radius: 20px;
+  color: white;
+  background-color: #f6416c;
+  outline: none;
+}
+
+.contact_us p {
+  font-size: small;
+  align-self: flex-start;
+  margin-left: 60px;
+}

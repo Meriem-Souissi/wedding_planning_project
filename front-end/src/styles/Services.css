@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Courgette&display=swap");
+
+.servicePage {
+  max-width: 900px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  height: 100%;
+  margin: 100px auto 50px;
+}
+
+.service {
+  width: 350px;
+  height: 260px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: 40px;
+}
+
+.service h2 {
+  text-align: center;
+  font-family: "Courgette", cursive;
+  width: fit-content;
+  font-size: large;
+}
+
+.service__container {
+  position: relative;
+  width: 350px;
+  height: 220px;
+}
+
+.service__top {
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  box-shadow: 0 -4px 2px -2px rgb(128 128 128 / 40%),
+    4px 0 2px -2px rgb(128 128 128 / 40%),
+    -4px 0 2px -2px rgb(128 128 128 / 40%),
+    0 4px 2px -2px rgb(128 128 128 / 40%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  transition: 0.6s;
+}
+
+.service:hover .service__top {
+  transform: translateY(-90px);
+}
+
+.service__top img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.service__bottom {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  box-shadow: 0 -4px 2px -2px rgb(128 128 128 / 40%),
+    4px 0 2px -2px rgb(128 128 128 / 40%),
+    -4px 0 2px -2px rgb(128 128 128 / 40%),
+    0 4px 2px -2px rgb(128 128 128 / 40%);
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.service__bottom h2 {
+  margin-bottom: 39px;
+  cursor: pointer;
+  user-select: none;
+  text-shadow: 2px 2px rgb(128 128 128 / 40%);
+  font-family: "Courgette", cursive;
+  font-size: x-large;
+}
